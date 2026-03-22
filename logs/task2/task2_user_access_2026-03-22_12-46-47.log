@@ -1,0 +1,33 @@
+=== Users ===
+uid=1004(Sarah) gid=1006(Sarah) groups=1006(Sarah)
+uid=1005(mike) gid=1007(mike) groups=1007(mike)
+
+=== Directory permissions ===
+drwxr-x--- 3 Sarah Sarah 4096 Mar 22 12:40 /home/Sarah
+drwxr-x--- 3 mike  mike  4096 Mar 22 12:40 /home/mike
+
+=== Password aging ===
+Last password change					: Mar 22, 2026
+Password expires					: Apr 21, 2026
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 30
+Number of days of warning before password expires	: 7
+Last password change					: Mar 22, 2026
+Password expires					: Apr 21, 2026
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 30
+Number of days of warning before password expires	: 7
+
+=== PAM quality module check ===
+25:password	requisite			pam_pwquality.so retry=3
+
+=== pwquality config ===
+minlen = 10
+ucredit = -1
+lcredit = -1
+ocredit = -1
+retry = 3
