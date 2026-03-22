@@ -1,0 +1,15 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  21792 11860 ?        Ss   11:22   0:00 /sbin/init
+root        1192  0.0  0.0 1756620 12544 ?       Ssl  11:54   0:00 /usr/libexec/wsl-pro-service
+polkitd     1044  0.0  0.0 308164  7392 ?        Ssl  11:52   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root        1039  0.0  0.1 370096 19936 ?        Ssl  11:52   0:00 /usr/libexec/packagekitd
+root          39  0.0  0.0  83212 15132 ?        S<s  11:22   0:00 /usr/lib/systemd/systemd-journald
+root         369  0.0  0.0   3136   896 ?        S    11:22   0:00 /init
+user         370  0.0  0.0   7260  6272 pts/0    Ss   11:22   0:00 -bash
+root          86  0.0  0.0  24980  6048 ?        Ss   11:22   0:00 /usr/lib/systemd/systemd-udevd
+root         241  0.0  0.1 107024 22176 ?        Ssl  11:22   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+message+     167  0.0  0.0   9632  4704 ?        Ss   11:22   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+user         416  0.0  0.0  20312 10752 ?        Ss   11:22   0:00 /usr/lib/systemd/systemd --user
+root         183  0.0  0.0  17968  8064 ?        Ss   11:22   0:00 /usr/lib/systemd/systemd-logind
+systemd+     104  0.0  0.0  21460 12768 ?        Ss   11:22   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     105  0.0  0.0  91028  7168 ?        Ssl  11:22   0:00 /usr/lib/systemd/systemd-timesyncd
